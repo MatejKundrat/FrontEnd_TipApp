@@ -10,32 +10,29 @@
     <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@300&display=swap" rel="stylesheet">
     <title>Calculator</title>
   </head>
-  <header>
-    <div>
-        <h1>TIP Calculator!</h1>
-    </div>
-  </header>
+<div class="app">
+    <header>
+        <h1>Kalkulacka sprepitneho</h1>
+    </header>
   <body>
-<form>
- <ul>
-  <li>
-    <label>Vyska uctu:</label>
-    <input  id="billamt" type="text">
-  </li>
-  <li>
-    <label>Kolko % by si chcel nechat sprepitne?:</label>
-    <input type="text" id="serviceQual">
-  </li>
-  <li>
-    <label>Kolko ludi sharuje ucet?: </label>
-    <input type="text" id="peopleamt" ></input>
-  </li>
-  <li class="button">
+    <div class="options">
+  
+      <div class="input-group">
+        <label class="label">Vyska uctu:</label>
+        <input type="number" id="billamt"/>
+      </div>
+      <div class="input-group">
+        <label class="label">Kolko % by si chcel nechat sprepitne?:</label>
+        <input type="number" id="serviceQual"/>
+      </div>
+      <div class="input-group">
+        <label class="label">Kolko ludi sharuje ucet?: </label>
+        <input type="number" id="peopleamt" />
+      </div>
+    </body>
+  </div>
+  <footer>
     <button type="submit" id="calculate">Vypocitaj</button>
-  </li>
- </ul>
-</form>
-
-  </body>
+  </footer>
 </html>
 

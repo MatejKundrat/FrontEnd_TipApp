@@ -1,13 +1,60 @@
-header {
-    font-family: 'Nunito', sans-serif;
-    
-
-}
-html {
+* {
     margin: 0;
-}
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
 
-body{
-    width: 600px;
-    font-family: 'Nunito', sans-serif;
-}
+   }
+   html{
+       background: linear-gradient(110deg, #C2CAD0 60%, #C2B9B0 60%);
+       margin-top: 0%;
+       margin-bottom: 0%;
+       display: grid;
+       place-items: center;
+       height: 100%;
+       width: 100%;
+   }
+   .app {
+       width: 75%;
+       margin: 50px auto;
+       background: #AFD275;
+       overflow-y:auto;
+       border-radius: 15px;
+       box-shadow: 0px 15px 20px rgba(0,0,0,0.1);
+       padding: 10px 30px 50px 30px;
+       color: #fff;
+   }
+   .options {
+    height: 100%;
+    width: 100%;
+    outline: none;
+    font-size: 17px;
+    padding: 0px 20px 20px 20px;
+    border-radius: 25px;
+   }
+   h1 {
+       text-align: center;
+       size: auto;
+       color: #fff;
+       padding: 10px;
+   }
+
+   .input-group{
+       width: 100%;
+       height: 50px;
+       position: inherit;
+       color: #fff;
+       display: flex;
+       font-size: 16px;
+       align-items: center;
+       justify-content: space-around;
+   }
+
+   button {
+    display: flex;
+    border: 2px solid lightblue;
+    font-size: 20px;
+    cursor: pointer;
+    padding: 10px;
+    margin: auto;
+   }
